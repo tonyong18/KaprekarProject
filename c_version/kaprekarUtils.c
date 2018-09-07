@@ -33,7 +33,7 @@ int isKaprekar(int n) {
   int i, numberOfDigits;
   long first, second;
   long square = n * (long) n;
-  numberOfDigits = (int) log10(n) + 1;
+  numberOfDigits = (int) log10(n) + 10;
   long modulus = 1;
 
 
